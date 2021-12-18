@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding:  0;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  color: #000;
+  font-family: Verdana, sans-serif;
+  border-collapse:collapse;
+}
+
+body{
+  background: linear-gradient(black, #888, white);
+}
+
+#wraper{
+  width:1180px;
+  border-radius: 12px;
+  display: block;
+  margin: 0.5em auto;
+  background: white;
+  box-shadow: 0.3em 0.3em 0.5em #888;
+}
+
+.en-tete-page{
+  display: block;
+  text-align: center;
+  margin: 40px;
+}
+
+.titre-page-vert1{
+  color: #139c19 ;
+  font-size: 4em;
+  text-shadow: -0.1em 0.1em 0.05em #000;
+}
+
+.memu-principal{
+  display: block;
+  background: linear-gradient( #444 , #111);
+  border-radius: 50px;
+  margin:  40px;
+}
+
+.memu-principal > ul{
+ /* margin: 0px 20px; */
+ padding: 0px 20px;
+ }
+
+.memu-principal li{
+ display: inline-block;
+ }
+
+ .memu-principal li h2 > a {
+   display: block;
+   color:#fafafa;
+   text-shadow: -0.1em 0.1em 0.05em #000;
+   padding: 20px;
+   font-size: 0.65em;
+ }
+
+ .memu-principal li h2 > a:hover{
+  background: linear-gradient(#19b123,#139c19);
+ }
+ /* fin du menu niveau n1 */
+
+ .sous-menu{
+   position: absolute;
+   display: none;
+   background: linear-gradient( #444 , #111);
+   width: 550px;
+ }
+
+ .sous-menu li h3 > a{
+  display: block;
+  background: linear-gradient(#19b123,#139c19);
+  padding: 15px 0px;
+  margin-left: 5px;
+ }
+
+ li:hover .sous-menu{
+   display: block;
+ }
+/* fin sous menue debut paneau*/
+ .sous-sous{
+  width: 550px;
+ }
+
+ .sous-sous li{
+  display: block;
+  margin-left: 5px;
+ }
+
+ .sous-sous li h4 >a{
+  background: linear-gradient(#19b123,#139c19);
+  color:#fafafa;
+  text-align: center;
+  display: block;
+  padding: 20.5px;
+ }
+
+ .sous-sous li h4 >a:hover{
+   color:#ededed;
+   text-shadow: -0.1em 0.1em 0.05em #000;
+ }
+
+ .ligne{
+  display:table-cell;
+  width: 50%;
+  vertical-align: middle;
+ }
+
+.sous-sous figure{
+  display:table-cell;
+  width: 50%;
+  vertical-align: middle;
+  background: linear-gradient(#19b123,#139c19);
+}
