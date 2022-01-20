@@ -115,3 +115,130 @@ body{
   vertical-align: middle;
   background: linear-gradient(#19b123,#139c19);
 }
+
+/*a revoire ?*/
+.titre-puce{
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 0px 40px;
+}
+
+.titre{
+  display: inline-block;
+  height: 40px;
+  vertical-align: bottom;
+}
+
+.vert1{
+  color: #139c19 ;
+  display: inline;
+  height: 40px;
+}
+
+.puce{
+  background: #139c19 ;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50% 0 0 50%  ;
+}
+/*colonee*/
+
+.gauche{
+
+  width: 70%;
+  display: inline-block;
+  box-shadow: 0.5em 0 0.5em #ccc;
+}
+
+
+.droite{
+  width: 30%;
+  display:inline-block;
+  padding: 0px 40px;
+
+}
+
+.colonne{
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.colonne p{
+  margin: 15px 0;
+  padding: 0px 40px;
+}
+/*arcle c G section et paragrafe image*/
+
+.cont-Image-text{
+  display: block;
+  width: 100%;
+}
+
+.cont-Image-G {
+  margin: 0;
+  padding:0;
+  width:49%;
+  display: inline-block;
+}
+
+.image-G{
+  width:95%;
+  margin: 0;
+  padding:0;
+}
+
+ #p-image-D {
+  padding: 0;
+  margin: 0;
+
+  width: 45%;
+  display:inline-block;
+}
+
+/*__________________________*/
+
+
+/*couleur et style text colone*/
+.couleur-gris-italic{
+  color: #777;
+  font-style: italic;
+}
+
+/*footer*/
+
+footer {
+  border-top:2px solid #139c19;
+}
+
+footer>nav {
+  display: block;
+text-align: center;
+
+}
+
+footer>nav>ul{
+display: inline-block;
+
+
+}
+
+footer>nav>ul>li{
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  background: linear-gradient(#19b123,#139c19);
+  border-radius: 50px;
+}
+
+footer>nav>ul>li>a{
+  color: #e9f6e9;
+}
+footer>nav>ul>li:hover {
+  color: #000;
+  background: rgba(21,165,29,0.5);
+}
+
+footer>nav>ul>li>a:hover {
+  color: #000;
+}
