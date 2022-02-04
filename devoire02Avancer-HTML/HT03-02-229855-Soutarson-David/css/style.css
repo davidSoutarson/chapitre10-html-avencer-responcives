@@ -1,0 +1,122 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
+#wraper{
+   width: 100%;
+
+
+}
+
+.colImag{
+  width: 100%;
+}
+
+.item{
+  color: #fff;
+}
+
+/*___________________ sousie_________________________ */
+header{
+  background-image: url("../img/bkg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  display: grid;
+  grid-template-columns:10px 2fr 10fr 2fr 10px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap:10px;
+  grid-column-gap:10px;
+}
+
+
+
+nav{
+  text-align: center;
+  background-color:hsl(163, 27.7%, 32%);
+  background-image: none;
+  grid-column: 4;
+
+}
+
+.boxtitre{
+grid-column: 2;
+grid-row: 4;
+}
+
+/* .titre{
+
+}
+
+.titre2{
+
+} */
+
+/*___________________fin sousie_________________________ */
+main{
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.ligne1{
+
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+}
+
+.ar-1{
+
+}
+
+.ar-2{
+
+}
+
+.ligne2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.ar-3{
+
+}
+
+.ar-4{
+
+
+}
+
+.ar-5{
+
+
+}
+
+.ligne3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr
+
+}
+
+footer{
+
+}
+
+form{
+
+}
+
+fieldset{
+
+}
+
+.boxbouton{
+
+}
