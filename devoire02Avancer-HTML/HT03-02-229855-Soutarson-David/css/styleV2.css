@@ -45,7 +45,7 @@
   --suvoleItemeMenu:#f44336;
   --survoleLireSuite:#f00;
 
-  /*survole et degader bouton  #666 #444*/
+  --survoleDegaderBouton:linear-gradient(0deg, #666, #444);
 
   /*gestion des bordures couleur taylle arondie et forme */
 
@@ -86,12 +86,10 @@ header{
 }
 
 .btn-navigation{
-
   cursor: pointer;
 }
 
 .btn-navigation:active{
-
   cursor: pointer;
 }
 
@@ -121,30 +119,22 @@ transform:translateY(-20px);
 
 .navigation ul{
   width: 200px;
-
+  background-color: var(--couleurFontMenu);
 }
 
 .navigation ul li{
-
-  background-color: var(--couleurFontMenu);
 
 }
 
 .navigation ul li:active{
 
-  background-color: var(--couleurFontMenu);
-
 }
 
-
-/*-------------------------MENU-------------------------*/
-
-
-
-
+/*----------------------------------------------------------------------------*/
 
 .item{
   color: var(--couleurItemeMenu);
+  background-color: var(--couleurFontMenu);
   display: flex;
   padding: 9%;
   /* justify-content: center; */
@@ -153,12 +143,27 @@ transform:translateY(-20px);
 .item:hover{
   color: var(--suvoleItemeMenu);
 }
+/*-------------------------MENU FIN---------------------*/
+
+/*----------------------Aficher la Suite des Textes-------------------------*/
+
 
 .suite{
   color: var(--couleurLireSuite);
+  visibility: visible;
 }
-/*-------------------------MENU FIN---------------------*/
 
+.cacher{
+visibility: hidden;
+height: 20px;
+}
+
+.cacher:hover{
+visibility: visible;
+height: 100%;
+}
+
+/*----------------------------A F S T fin ------------------------------------*/
 .colImag{
   display: inline-block;
   width: 100%;
@@ -210,8 +215,7 @@ fieldset{
 
 .cc{
   display: flex;
-    flex-direction: column;
-
+  flex-direction: column;
   width: var(--col);
   margin: 0px;
 
@@ -243,7 +247,6 @@ justify-content:space-between ;
   border-radius: 10% /50%;
   margin-left: 0.5em;
   margin-right: 0.5em;
-
 }
 
 .bouton2{
