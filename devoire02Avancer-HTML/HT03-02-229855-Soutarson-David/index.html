@@ -2,41 +2,74 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styleV2.css">
 
   <title>Html avencé: devoir 2 Une page responsive</title>
 </head>
 <body>
-  <div id="wraper">
+  <div id="wrapper">
 
-    <header>
+  <header >
+    <div class="navbarre">
 
-      <nav>
-        <ul>
-          <li><a class ="item"  href="#">Projets</a></li>
-          <li><a class ="item"  href="#">pricing</a></li>
-          <li><a class ="item"  href="#">Tower</a></li>
-          <li><a class ="item"  href="#">Contacts</a></li>
+
+      <nav class="navigation">
+
+        <!-- (racousie emete):  ul.liste-items>li.item*6 -->
+        <ul class="liste-items">
+          <div class="btn-navigation">
+              <img class="barre" src="/img/burg.png" alt="">
+          </div>
+          <li class="item"><a href="#" class="item">Projets</a></li>
+          <li class="item"><a href="#" class="item">pricing</a></li>
+          <li class="item"><a href="#" class="item">Tower</a></li>
+          <li class="item"><a href="#" class="item">Contacts</a></li>
+        
         </ul>
+
       </nav>
+    </div>
 
-      <div class="boxtitre">
-        <h1>d-angle</h1>
-        <p>responsive answer</p>
-      </div>
+    <div class=" boxtitre">
+      <h1>d-angle</h1>
+      <p>responsive answer</p>
+      <a href="html/teste.html"> go teste </a>
+      <p>
+        <a href="html/testeBurgerMenu.html"> go teste Burger Test </a>
+      </p>
+    </div>
+
+  </header>
 
 
-    </header>
 
-    <main>
 
-      <div class="ligne1">
 
+    <main >
         <article class="ar-1" >
-
-          <img class="colImag" src="img/img-01.jpg" alt="">
-          <p>
+          <img class="colImag" src="img/img-01.jpg" alt="les chaise">
+          <h2> Aliquan conditimentum</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <a href="#" class="suite"> lire la suite </a>
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -47,41 +80,44 @@
             sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </article>
-        <article class="ar-2" >
 
-          <img class="colImag" src="img/img-02.jpg" alt="">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-            dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident,
-            sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </article>
-      </div>
-      <!-- _______________________________________________________________________ -->
-      <div class="ligne2">
-        <article class="ar-3">
+          <article class="ar-2 "  >
+            <img class="colImag" src="img/img-02.jpg" alt="porte">
+              <h2>Sed nec lacus id emin porta </h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </article>
 
-          <img class="colImag" src="img/img-03.jpg" alt="">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-            dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident,
-            sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </article>
+          <article class="ar-3 ">
+
+            <img class="colImag" src="img/img-03.jpg" alt=" mosayque">
+
+            <h2>Phasellus nom leo porta</h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </article>
+
         <article class="ar-4">
 
-          <img class="colImag" src="img/img-04.jpg" alt="">
-          <p>
+          <img class="colImag" src="img/img-04.jpg" alt="velo acrocher au poteau">
+          <h2>Proin nibn lacus</h2>
+          <p class="text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -94,8 +130,10 @@
         </article>
         <article class="ar-5">
 
-          <img class="colImag" src="img/img-05.jpg" alt="">
-          <p>
+          <img class="colImag" src="img/img-05.jpg" alt="ipstere epe">
+
+          <h2>Phasellus nos leo pota</h2>
+          <p class="text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -106,14 +144,13 @@
             sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </article>
-      </div>
-      <!-- _______________________________________________________________________ -->
 
-      <div class="ligne3">
         <article class="ar-6">
 
-          <img class="colImag" src="img/img-06.jpg" alt="">
-          <p>
+          <img class="colImag " src="img/img-06.jpg" alt=" rout de camion">
+
+          <h2>Phaselluta</h2>
+          <p class="text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -124,10 +161,13 @@
             sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </article>
-        <article class="ar-7" >
 
-          <img class="colImag" src="img/img-07.jpg" alt="">
-          <p>
+        <article class="ar-7">
+
+          <img class="colImag" src="img/img-07.jpg" alt="main et ca silouette">
+
+          <h2>Prus</h2>
+          <p class="text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -140,8 +180,9 @@
         </article>
         <article class="ar-8">
 
-          <img class="colImag" src="img/img-08.jpg" alt="">
-          <p>
+          <img class="colImag" src="img/img-08.jpg" alt=" cople de pigeon">
+          <h2>Phasorta</h2>
+          <p class="text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -150,12 +191,14 @@
             dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident,
             sunt in culpa qui officia deserunt mollit anim id est laborum.
+
           </p>
         </article>
         <article class="ar-9">
 
-          <img class="colImag" src="img/img-09.jpg" alt="">
-          <p>
+          <img class="colImag" src="img/img-09.jpg" alt="home au chapeau">
+          <h2>Prota</h2>
+          <p class="text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -166,45 +209,60 @@
             sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </article>
-      </div>
+
+
+
     </main>
-    <!-- _______________________________________________________________________ -->
+
+<!-- ________________________________________________________________________ -->
 
     <footer class=ligne4>
 
 
+      <form class="" action="post">
+        <div class="imageform">
 
-      <form action="post">
-
-        <fieldset>
-          <h1>contactez-nous</h1>
-
-          <div>
-            <label for="nom" >Nom*:</label>
-            <input id="nom" type="text" name="nom" value="">
-
-            <label for="email">Email*:</label>
-            <input id="email" type="email" name="email" value="">
+         <fieldset>
+          <div class="boxtitreform">
+              <h1 class="titreformulaire">contactez-nous</h1>
           </div>
 
-          <div>
-            <label for="tel">Telephone:</label>
-            <input  id="tel" type="tel" name="tel" value="">
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" ></textarea>
+          <div class="boxtexteform">
+            <div class="cc">
+
+              <label class="textformulaire" for="nom" >Nom*:</label>
+              <input id="nom" type="text" name="nom" value="">
+
+              <label class="textformulaire" for="email">Email*:</label>
+              <input id="email" type="email" name="email" value="">
+
+            </div>
+
+
+            <div class="cc">
+
+              <label class="textformulaire" for="tel">Telephone:</label>
+              <input  id="tel" type="tel" name="tel" value="">
+
+              <label class="textformulaire" for="message">Message:</label>
+              <textarea id="message" name="message" rows="8" cols="80" ></textarea>
+
+            </div>
           </div>
 
           <div class="boxbouton">
             <input class="bouton" type="submit" name="Envoyer" value="Envoyer">
             <input class="bouton2" type="submit" name="Reste" value="Reste">
           </div>
-        </fieldset>
+
+
+      </fieldset>
+
         <!-- case a cocher 14 repatie trois conlone 5 5 4 centre  -->
 
         <div class="selction">
-
-          <ul class = "check">
+          <ul class = "check-1">
             <li>
               <input type="checkbox" name="" value="Responsive Disagne">
               <label for="Responsive Disagne">Responsive Disagne</label>
@@ -226,27 +284,24 @@
               <label for="Typographie Responsive">Typographie Responsive</label>
             </li>
           </ul>
-
-
-          <ul>
+          <ul class = "check-2">
             <li><input type="checkbox" name="" value="Principes">
-            <label for="Principes">Principes</label>
+              <label for="Principes">Principes</label>
             </li>
             <li><input type="checkbox" name="" value="Ecrant">
-            <label for="Ecrant">Ecrant</label>
+              <label for="Ecrant">Ecrant</label>
             </li>
             <li><input type="checkbox" name="" value="Media fluides">
-            <label for="Media fluides">Media fluides</label>
+              <label for="Media fluides">Media fluides</label>
             </li>
             <li><input type="checkbox" name="" value="Landscape">
-            <label for="Landscape">Landscape</label>
+              <label for="Landscape">Landscape</label>
             </li>
             <li><input type="checkbox" name="" value="Pourcentages">
-            <label for="Pourcentages">Pourcentages</label>
+              <label for="Pourcentages">Pourcentages</label>
             </li>
           </ul>
-
-          <ul>
+          <ul class = "check-3">
             <li>
               <input type="checkbox" name="" value="Atelier Design">
               <label for="Atelier Design">Atelier Design</label>
@@ -264,10 +319,8 @@
               <label for="Un formulaire responsive">Un formulaire responsive</label>
             </li>
           </ul>
-
-        </div>
-
-
+         </div>
+       </div>
       </form>
 
     </footer>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/master.css">
+  <title>gris basse 12</title>
+</head>
+<body>
+<div id="wrapper">
+
+<header>
+  <!-- 100 %  -->
+  <h1><a href="../index.html"> retoure</a></h1>
+</header>
+<main>
+
+  <article class="ar coure">
+    <h2>les boite et leur dimention</h2>
+    <p>Nous pouvon dimentioner les boite deux plusire manire selon les
+      besoi de laplication que nous developons</p>
+    <h2>utilisation de felx-box: <h2>
+  </article>
+
+  <div class="box B1">
+
+    <h2>un exenple  de grille fluides </h2>
+    <p>
+      Sur le principe, quand on parle de grilles fluides on travaille en unité <br>
+      relative, dont les pourcentages sont le meilleur exemple.
+    </p>
+
+    <img class="image" src="/img/img-01.jpg" alt=" des chese">
+    <p>1</p>
+    <p>propriette generale des boite de 1 a 9</p>
+    <p>dans ce cas les boite posede le class ="box B1 a B9"</p>
+    <p>box et la classe generale: </p>
+    <p>.box possède les propriétés suivantes :</p>
+      <p class = "codeCSS">.box{<br>
+        border: 2px solid black;<br>
+        background-color: pink;<br>
+        flex-flow: column nowrap;<br>
+        width: calc( (100% / 12) *1) ;<br>
+      }</p><br>
+      <p>En appelant l'attribue B1 cela me permet de cibler la première boite :</p>
+      <p>.B1 possède les propriétés suivantes :</p>
+      <p class = "codeCSS">
+        .B1{<br>
+          flex-flow: column nowrap;<br>
+          width: calc( (100% / 12) *5 ) ;<br>
+        }<br>
+
+        <br>.B2{ <br>
+          flex-flow: row wrap; <br>
+          width: calc( (100% / 12) *4 ) ; <br>
+          align-content: flex-start; <br>
+        } <br>
+        <p>B1 aucupe donc 5 12éme de l'epase diponible il reste donc 7 epase </p>
+
+  </div>
+
+
+  <div class="box B2">
+    <div class="case C0">
+      <p>box B2</p>
+      <img class="image" src="/img/img-02.jpg" alt="TUC">
+      <p>case C0</p>
+    </div>
+
+    <div class="case C1">
+      <p>case C1</p>
+    </div>
+    <div class="case C2">
+      <p>case C2</p>
+    </div>
+    <div class="case C3">
+      <p>case C3</p>
+    </div>
+    <div class="case C4">
+      <p>case C4</p>
+      <div class="text-c4">
+
+        <p>
+          La box 2 contien 5 div qui posede la class comune avec latribut case
+          plus un atribue par case alent de C0 a C4.
+          <br> Les case C1 C2 C3 Forme le drapeau tricolor FR
+        </p>
+        <p class = "codeCSS">
+          .case{<br>
+            display: flex;<br>
+           flex-flow: column wrap;<br>
+            align-items: center;<br>
+          }<br>
+
+          .C0{<br>
+            border: 2px solid yellow;<br>
+          }<br>
+
+          <br>.C1, .C2, .C3{<br>
+          border: 3px solid orange;<br>
+          width: calc( (100% / 12) *4) ;<br>
+          height: 150px;
+          <br>
+          }<br>
+
+          .C1{<br>
+            background-color: blue;<br>
+            border-right: none;<br>
+            justify-content:flex-end;<br>
+          }<br>
+
+          <br>.C2{<br>
+            background-color: white;<br>
+            border-right: none;<br>
+            border-left: none;<br>
+            justify-content: center;<br>
+          }<br>
+
+          <br>.C3{<br>
+            background-color: red;<br>
+            border-left: none;<br>
+          }<br>
+
+
+
+        </p>
+
+        <a href="#" class="suite" > lire la suite  </a>
+
+
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="box B3">
+      <p>box B3</p>
+    <img class="image" src="/img/img-03.jpg" alt="TUC">
+
+    <p>
+      Nous pouvon constater que dans la plus par des cas la hauteur: height na
+      pas besoin detre sepsifier. <br>
+      Ce qui donne au content la posibiliter de sadapter. <br>
+      Dans le cas de C1 C2 C3 je resier une fix en pixele ce qui
+      n'influe pas sur le conpotement des contener box
+    </p>
+
+  </div>
+
+  <div class="box">
+    <img class="image" src="/img/img-04.jpg" alt="TUC">
+    <p>4</p>
+  </div>
+
+  <div class="box B5">
+    <img class="image" src="/img/img-05.jpg" alt="TUC">
+    <p>5</p>
+
+    <div class="bare">
+
+      <nav class="menuFermer">
+        <div class= "Burg">
+
+          <div class="text-Burg">
+            <h1 class="M0">menu</h1>
+            <h1 class="M1">fermer</h1>
+          </div>
+
+          <div class="image-Burg">
+            <img  src="/img/burg.png" alt="icone ouverture et fermetur">
+            <div class="cacheB"> </div>
+          </div>
+        </div>
+
+        <div class="transition">
+          <img src="/img/vignette.png" alt="image pour arier planc menu">
+        </div>
+
+        <div class="menu ">
+          <ul class="menuOuver">
+            <li class="lmenu" ><a class ="item"  href="#">Projets</a></li>
+            <li class="lmenu" ><a class ="item"  href="#">pricing</a></li>
+            <li class="lmenu" ><a class ="item"  href="#">Tower</a></li>
+            <li class="lmenu" ><a class ="item"  href="#">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+
+  <!-- <div class="box">
+    <img class="image" src="/img/img-06.jpg" alt="TUC">
+    <p>6</p>
+  </div>
+
+  <div class="box">
+    <img class="image" src="/img/img-07.jpg" alt="TUC">
+    <p>7</p>
+  </div>
+
+  <div class="box">
+    <img class="image" src="/img/img-08.jpg" alt="TUC">
+    <p>8</p>
+  </div>
+
+  <div class="box">
+    <img class="image" src="/img/img-09.jpg" alt="TUC">
+    <p>9</p>
+  </div>
+
+  <div class="">
+
+    <button type="button" name="button">degader</button>
+
+
+  </div> -->
+
+
+
+
+</main>
+
+
+</div>
+</body>
+</html>
